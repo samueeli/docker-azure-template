@@ -1,0 +1,9 @@
+subscription_id   = "xxx-xxx-xxx-xxx-xxx-xxx"
+resource_group    = "myresourcegroup"
+registry_name     = "myregistry" # must be unique and contain 5-50 alphanumeric characters
+app_name          = "myapp"
+location          = "northeurope" # azure region/datacenter
+sku               = "Basic"       # Basic, Standard, Premium
+service_plan_name = "myserviceplan"
+service_plan_sku  = "F1"
+os_type           = "Linux" # Linux or Windows
